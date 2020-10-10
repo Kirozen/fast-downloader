@@ -1,5 +1,10 @@
 # Changelog
 
+## next
+
+- Basic auth support
+- Digest auth support
+
 ## 0.1.0
 
 - First release

@@ -35,13 +35,17 @@ pip install fast-downloader-mt
 Usage: fdl [OPTIONS] [URLS]...
 
 Options:
-  -t, --threads INTEGER        thread number
-  -i, --input PATH             input file
+  -t, --threads INTEGER RANGE     thread number
+  -i, --input PATH                input file
   -q, --quiet
-  -d, --destination PATH
+  -d, --destination PATH          destination folder
   --aria2-compatibility
-  --buffer-size INTEGER
-  --help                       Show this message and exit.
+  -b, --buffer-size INTEGER RANGE
+                                  buffer size
+  --auth-method [basic|digest]
+  -u, --user TEXT                 user for authentication
+  -p, --password TEXT             password for authentication
+  --help                          Show this message and exit.
 
 Default number of threads set to `cpu_count()`
 
